@@ -3,7 +3,7 @@ name: aaa
 on:
   workflow_run:
     workflows:
-      - 'workflows/a.yaml'
+      - 'hoge huga'
     types:
       - completed
 
