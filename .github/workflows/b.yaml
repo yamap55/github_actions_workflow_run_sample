@@ -3,7 +3,7 @@ name: aaa
 on:
   workflow_run:
     workflows:
-      - 'hoge huga'
+      - hello_world
     types:
       - completed
 
