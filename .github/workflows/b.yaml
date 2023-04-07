@@ -1,0 +1,16 @@
+name: aaa
+
+on:
+  workflow_run:
+    workflows:
+      - 'workflows/a.yaml'
+    types:
+      - completed
+
+jobs:
+  bbb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Output Hello World
+        run: echo "Hello World! 2"
